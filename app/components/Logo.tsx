@@ -1,9 +1,9 @@
-function Logo() {
+function Logo({ className = "" }) {
   return (
     <svg
       role="img"
       aria-label="Logo Ableton"
-      className="main-nav__logo__image"
+      className={className}
       fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
       width="60" // Increase the width to make it bigger

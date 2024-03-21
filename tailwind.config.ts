@@ -23,6 +23,23 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        transparent: 'transparent',
+        yellow: '#fbffa7',
+        orange: '#ff764d',
+        lightblue: '#b1c5ff',
+        purple: '#d5b3ff',
+        green: '#b6ffc0',
+        blue: '#0000ff',
+        separator: '#eee',
+      },
+      screens: {
+        '2xl': '1440px',
+        '3xl': '1600px',
+      },
+      spacing: {
+        'screen': '100vh',
+      },
     },
   },
   plugins: [],
