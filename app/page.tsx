@@ -1,10 +1,14 @@
 'use client';
-import OneNavToRuleThemAll from './components/OneNavToRuleThemAll';
+import Divider from './components/Divider';
+import Navbar from './components/Navbar';
+import SecondaryNav from './components/SecondaryNav';
 
 export default function Home() {
   return (
     <main className="mx-auto font-sans max-w-screen-3xl bg-gray-50 drop-shadow-lg">
-      <OneNavToRuleThemAll />
+      <Navbar />
+      <Divider />
+      <SecondaryNav />
     </main>
   );
 }
