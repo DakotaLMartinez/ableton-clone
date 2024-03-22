@@ -51,7 +51,7 @@ function Navbar() {
           >
             Menu <MdArrowDropDown />
           </button>
-          <div className="hidden lg:flex lg:ml-8 lg:gap-5 xl:gap-8 items-center">
+          {/* <div className="hidden lg:flex lg:ml-8 lg:gap-5 xl:gap-8 items-center">
             <a href="#">Live</a>
             <a href="#">Push</a>
             <a href="#">Note</a>
@@ -70,7 +70,7 @@ function Navbar() {
           </a>
           <a className="xl:text-sm" href="#">
             Log in or register
-          </a>
+          </a>*/}
         </div>
       </nav>
       <MobileNavOverlay open={isMobileNavOpen && !isDesktopScreen} />

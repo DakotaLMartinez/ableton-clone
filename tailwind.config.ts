@@ -44,7 +44,6 @@ const config: Config = {
       spacing: {
         '18': '4.5rem',
         screenh: '100vh',
-        navheight: '1020px',
       },
     },
   },
