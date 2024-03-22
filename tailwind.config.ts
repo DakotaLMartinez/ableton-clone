@@ -33,12 +33,18 @@ const config: Config = {
         blue: '#0000ff',
         separator: '#eee',
       },
+      transitionDelay: {
+        '400': '400ms',
+        '600': '600ms',
+      },
       screens: {
         '2xl': '1440px',
         '3xl': '1600px',
       },
       spacing: {
-        'screen': '100vh',
+        '18': '4.5rem',
+        screenh: '100vh',
+        navheight: '1020px',
       },
     },
   },

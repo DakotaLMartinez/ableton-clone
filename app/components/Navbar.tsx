@@ -15,12 +15,16 @@ function Navbar() {
     'text-white': isMobileNavOpen && !isDesktopScreen,
     'text-black': !isMobileNavOpen || isDesktopScreen,
   });
+
+  const mobileNavVisible = isMobileNavOpen && !isDesktopScreen;
   const navClasses = classNames(
+    'transition delay-300',
     'relative flex justify-between',
     'z-10 p-5 xl:px-10',
     'lg:text-xs font-medium',
     {
-      'border-b-2 border-separator': !isMobileNavOpen || isDesktopScreen,
+      'border-b-2 border-separator': !mobileNavVisible,
+      'border-b-0 border-blue': mobileNavVisible,
     }
   );
 
