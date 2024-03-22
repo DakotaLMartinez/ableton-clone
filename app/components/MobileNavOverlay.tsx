@@ -80,7 +80,7 @@ function MobileNavOverlay({ open }: { open: boolean }) {
             <a href="#">
               <div>
                 <h4>Loop</h4>
-                <p>
+                <p className="leading-7">
                   Watch Talks, Performances, and Features from Ableton's Summit
                   for Music Makers
                 </p>
@@ -91,7 +91,7 @@ function MobileNavOverlay({ open }: { open: boolean }) {
             <a href="#">
               <div>
                 <h4>Learning Music</h4>
-                <p>
+                <p className="leading-7">
                   Learn the fundamentals of music making right in your browser.
                 </p>
               </div>
@@ -101,7 +101,7 @@ function MobileNavOverlay({ open }: { open: boolean }) {
             <a href="#">
               <div>
                 <h4>Learning Synths</h4>
-                <p>
+                <p className="leading-7">
                   Get started with synthesis using a web-based synth and
                   accompanying lessons.
                 </p>
@@ -112,7 +112,7 @@ function MobileNavOverlay({ open }: { open: boolean }) {
             <a href="#">
               <div>
                 <h4>Making Music</h4>
-                <p>
+                <p className="leading-7">
                   Some tips from 74 Creative Strategies for Electronic
                   Producers.
                 </p>
