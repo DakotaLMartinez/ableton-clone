@@ -59,10 +59,10 @@ function OneNavToRuleThemAll() {
 
   const desktopNavClasses = classNames(
     'lg:flex lg:items-center',
-    'lg:text-sm lg:font-medium xl:text-lg',
+    'lg:text-sm lg:font-semibold xl:text-lg',
     'lg:gap-5 xl:gap-8',
     'space-y-6 lg:space-y-0',
-    'pl-0 lg:pl-20 my-8 lg:my-0'
+    'pl-0 lg:pl-24 my-8 lg:my-0'
   );
 
   const moreFromAbletonClasses = classNames('mt-6 lg:mt-12', {
@@ -178,7 +178,7 @@ function OneNavToRuleThemAll() {
                 <a href="#">
                   <div>
                     <h5>Loop</h5>
-                    <p className="leading-6">
+                    <p>
                       Watch Talks, Performances, and Features from Ableton's
                       Summit for Music Makers
                     </p>
@@ -189,7 +189,7 @@ function OneNavToRuleThemAll() {
                 <a href="#">
                   <div>
                     <h5>Learning Music</h5>
-                    <p className="leading-6">
+                    <p>
                       Learn the fundamentals of music making right in your
                       browser.
                     </p>
@@ -200,7 +200,7 @@ function OneNavToRuleThemAll() {
                 <a href="#">
                   <div>
                     <h5>Learning Synths</h5>
-                    <p className="leading-6">
+                    <p>
                       Get started with synthesis using a web-based synth and
                       accompanying lessons.
                     </p>
@@ -211,7 +211,7 @@ function OneNavToRuleThemAll() {
                 <a href="#">
                   <div>
                     <h5>Making Music</h5>
-                    <p className="leading-6">
+                    <p>
                       Some tips from 74 Creative Strategies for Electronic
                       Producers.
                     </p>
