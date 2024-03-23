@@ -50,7 +50,7 @@ function OneNavToRuleThemAll() {
     'lg:translate-y-0',
     'text-white lg:text-black',
     'pl-5 pt-10 lg:pl-0 lg:pt-0',
-    'bg-blue lg:bg-gray-50',
+    'bg-blue lg:bg-white',
     {
       'translate-y-0': mobileNavVisible || isDesktopScreen,
       '-translate-y-full': !mobileNavVisible,
@@ -73,7 +73,7 @@ function OneNavToRuleThemAll() {
   return (
     <nav className={navClasses}>
       <div className="flex">
-        <a className="absolute mt-1 top-4 inline-block lg:block z-30 lg:z-10">
+        <a className="absolute mt-1 top-4 xl:top-4.5 inline-block lg:block z-30 lg:z-10">
           <Logo className={whiteToBlackClasses} />
         </a>
         <button
