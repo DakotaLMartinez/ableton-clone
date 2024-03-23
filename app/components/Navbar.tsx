@@ -33,7 +33,7 @@ function OneNavToRuleThemAll() {
   });
 
   const navClasses = classNames(
-    'relative',
+    'relative z-20',
     'lg:flex lg:items-center',
     'px-5 py-5 lg:py-6 xl:px-10 xl:pb-5',
     'lg:text-xs font-medium',

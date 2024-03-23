@@ -9,7 +9,7 @@ function Header() {
     'text-darkorange text-6xl md:text-9xl font-bold'
   );
   return (
-    <header className="relative w-5/6 mx-auto">
+    <header className="relative w-5/6 mx-auto mb-1/12vw">
       <Image
         src="https://ableton-production.imgix.net/about/header.jpg?fit=crop&auto=format&fm=jpg"
         alt="ableton header"
