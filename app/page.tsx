@@ -11,6 +11,9 @@ export default function Home() {
       <Divider />
       <SecondaryNav />
       <Header />
+      <Header />
+      <Header />
+      <Header />
     </main>
   );
 }
