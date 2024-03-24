@@ -9,3 +9,19 @@ function SectionWrapper({ children }: { children: ReactNode }) {
 }
 
 export default SectionWrapper;
+
+SectionWrapper.Header = function SectionWrapperHeader ({ children }: { children: ReactNode }) {
+  return (
+    <h4 className="mb-4 larger:text-2xl larger:leading-10">
+      {children}
+    </h4>
+  );
+};
+  
+SectionWrapper.Paragraph = function SectionWrapperParagraph({ children }: { children: ReactNode }) {
+  return (
+    <p className="larger:text-lg">
+      {children}
+    </p>
+  );
+}
