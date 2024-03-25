@@ -1,4 +1,5 @@
 'use client';
+import ImageCollageTwoLeftOneRight from './components/ImageCollageTwoLeftOneRight';
 import AbletonPush from './components/AbletonPush';
 import Divider from './components/Divider';
 import Header from './components/Header';
@@ -64,7 +65,7 @@ export default function Home() {
           culture.
         </SectionWrapper.Paragraph>
       </SectionWrapper>
-      <div className="h-96">.</div>
+      <ImageCollageTwoLeftOneRight />
       <SectionWrapper>
         <SectionWrapper.Header>
           We believe it takes focus to create truly outstanding instruments. We
