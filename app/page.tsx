@@ -1,4 +1,5 @@
 'use client';
+import AbletonPush from './components/AbletonPush';
 import Divider from './components/Divider';
 import Header from './components/Header';
 import Navbar from './components/Navbar';
@@ -27,7 +28,7 @@ export default function Home() {
           sound designers, and artists from across the world.
         </SectionWrapper.Paragraph>
       </SectionWrapper>
-      <div className="h-96">.</div>
+      <AbletonPush />
       <SectionWrapper>
         <SectionWrapper.Header>
           Making music isn’t easy. It takes time, effort, and learning. But when
