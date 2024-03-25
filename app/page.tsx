@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Navbar from './components/Navbar';
 import SecondaryNav from './components/SecondaryNav';
 import SectionWrapper from './components/SectionWrapper';
+import Video from './components/Video';
 
 export default function Home() {
   return (
@@ -40,7 +41,13 @@ export default function Home() {
           it for.
         </SectionWrapper.Paragraph>
       </SectionWrapper>
-      <div className="h-96">.</div>
+      <SectionWrapper>
+        <Video
+          thumbnailUrl="https://ableton-production.imgix.net/about/poster-juanpe.jpg?auto=compress"
+          videoUrl="https://www.youtube.com/embed/9SbnhgjeyXA?enablejsapi=1&autoplay=1&widgetid=1"
+          caption="Why Ableton - Juanpe Bolivar"
+        />
+      </SectionWrapper>
       <SectionWrapper>
         <SectionWrapper.Header>
           We are more than 350 people from 30 different countries divided
