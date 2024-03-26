@@ -7,6 +7,8 @@ import Navbar from './components/Navbar';
 import SecondaryNav from './components/SecondaryNav';
 import SectionWrapper from './components/SectionWrapper';
 import Video from './components/Video';
+import Image from 'next/image';
+import SmallLeftBigRight from './components/SmallLeftBigRight';
 
 export default function Home() {
   return (
@@ -80,7 +82,16 @@ export default function Home() {
           debate are valued and openly encouraged.
         </SectionWrapper.Paragraph>
       </SectionWrapper>
-      <div className="h-96">.</div>
+      <div className="w-5/6 mx-auto mb-1/12vw">
+        <Image
+          src="https://ableton-production.imgix.net/about/poster-meet-the-makers.jpg?fit=crop&auto=format&fm=jpg"
+          alt="meet the makers"
+          width={400}
+          height={225}
+          className="w-full h-auto"
+        />
+      </div>
+
       <SectionWrapper>
         <SectionWrapper.Header>
           We’re passionate about what we do, but we’re equally passionate about
@@ -99,7 +110,7 @@ export default function Home() {
           production techniques and best practices.
         </SectionWrapper.Paragraph>
       </SectionWrapper>
-      <div className="h-96">.</div>
+      <SmallLeftBigRight />
       <SectionWrapper>
         <SectionWrapper.Header>
           We want our employees to love it here. Since we’re looking for
