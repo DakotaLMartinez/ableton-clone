@@ -26,6 +26,10 @@ h5 {
   @apply xl:mb-2 text-base xl:text-lg font-semibold;
 }
 
+h6 {
+  @apply mb-1 text-sm font-semibold;
+}
+
 p {
   @apply leading-6 text-sm font-light;
 }

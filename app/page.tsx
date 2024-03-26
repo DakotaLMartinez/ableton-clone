@@ -9,6 +9,8 @@ import SectionWrapper from './components/SectionWrapper';
 import Video from './components/Video';
 import Image from 'next/image';
 import SmallLeftBigRight from './components/SmallLeftBigRight';
+import JoinUs from './components/JoinUs';
+import Footer from './components/Footer';
 
 export default function Home() {
   return (
@@ -127,6 +129,9 @@ export default function Home() {
           variety of fun, informal small-group activities.
         </SectionWrapper.Paragraph>
       </SectionWrapper>
+      <JoinUs />
+      <Divider />
+      <Footer />
     </main>
   );
 }
