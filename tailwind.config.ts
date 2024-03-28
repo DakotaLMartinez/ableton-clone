@@ -39,12 +39,15 @@ const config: Config = {
         '600': '600ms',
       },
       screens: {
+        'xs': '576px',
         larger: '1124px',
         '2xl': '1440px',
         '3xl': '1600px',
       },
       spacing: {
+        '1.75': '0.4375rem',
         '4.5': '1.125rem',
+        '7.5': '1.875rem',
         '18': '4.5rem',
         '128': '32rem',
         screenh: '100vh',
