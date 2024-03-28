@@ -11,13 +11,25 @@ h1 {
 }
 
 h2 {
-  @apply text-3xl font-bold;
+  @apply text-2xl font-bold;
 }
 
 h3 {
-  @apply text-lg font-medium;
+  @apply mb-4 text-xl font-medium;
 }
 
 h4 {
-  @apply mb-4;
+  @apply mb-2 xl:mb-3 text-lg xl:text-2xl font-semibold;
+}
+
+h5 {
+  @apply xl:mb-2 text-base xl:text-lg font-semibold;
+}
+
+h6 {
+  @apply mb-1 text-sm font-semibold;
+}
+
+p {
+  @apply leading-6 text-sm font-light;
 }
