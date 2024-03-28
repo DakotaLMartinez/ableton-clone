@@ -180,8 +180,8 @@ function OneNavToRuleThemAll() {
                   <div>
                     <h5>Loop</h5>
                     <p>
-                      Watch Talks, Performances, and Features from Ableton's
-                      Summit for Music Makers
+                      Watch Talks, Performances, and Features from
+                      Ableton&apos;s Summit for Music Makers
                     </p>
                   </div>
                 </a>

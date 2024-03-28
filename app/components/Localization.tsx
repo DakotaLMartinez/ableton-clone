@@ -92,7 +92,7 @@ function Localization() {
           <option value="cd">Congo, The Democratic Republic Of The</option>
           <option value="ck">Cook Islands</option>
           <option value="cr">Costa Rica</option>
-          <option value="ci">Cote D'Ivoire</option>
+          <option value="ci">Cote D&apos;Ivoire</option>
           <option value="hr">Croatia</option>
           <option value="cu">Cuba</option>
           <option value="cw">Curacao</option>
@@ -153,11 +153,11 @@ function Localization() {
           <option value="kz">Kazakhstan</option>
           <option value="ke">Kenya</option>
           <option value="ki">Kiribati</option>
-          <option value="kp">Korea, Democratic People's Republic</option>
+          <option value="kp">Korea, Democratic People&apos;s Republic</option>
           <option value="kr">Korea, Republic Of</option>
           <option value="kw">Kuwait</option>
           <option value="kg">Kyrgyzstan</option>
-          <option value="la">Lao People's Democratic Republic</option>
+          <option value="la">Lao People&apos;s Democratic Republic</option>
           <option value="lv">Latvia</option>
           <option value="lb">Lebanon</option>
           <option value="ls">Lesotho</option>
