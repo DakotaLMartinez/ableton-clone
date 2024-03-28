@@ -18,7 +18,7 @@ function Header() {
         className="object-cover w-full h-5/6sh"
         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
       />
-      <div className={textClasses}>Ableton</div>
+      <div className={textClasses}>Ableton Clone</div>
     </header>
   );
 }
